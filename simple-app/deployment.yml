@@ -14,6 +14,7 @@ spec:
     metadata:
       labels:
         app: trivial-go-web-app
+        mypodlabel: label1
     spec:
       containers:
       - name: webserver-simple
